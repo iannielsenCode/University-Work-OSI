@@ -1,0 +1,31 @@
+0	0	Initialize int t to 0
+1	0	Initialize int r to 0
+2	100	Initialize int count to 100
+3	1	Initialize int addon to 1
+4	51050	Move value of addon to R0
+5	3	Address of addon
+6	15010	Add t and R0 and store in t
+7	0	Address of t
+8	15060	Add 1 to addon
+9	3	Address of addon
+10	1	Immediate operand value of 1
+11	25060	Subtract 1 from count and store in count
+12	2	Address of count
+13	1	Immediate operand value of 1
+14	85000	Branch to loop when count is positive
+15	2	Address of count
+16	4	Address of move command
+17	51150	Move value of t to R1
+18	0	Address of t
+19	15011	Add value of R1 and r and store in r
+20	1	Address of r
+21	15011	Add value of R1 and r and store in r
+22	1	Address of r
+23	25060	Subtract 100 from r and store in r
+24	1	Address of r	
+25	100	Immediate operand value of 100
+26	45060	Divide r by 200 and store in r
+27	1	Address of r	
+28	200	Immediate operand value of 200	
+29	0	Halt
+-1	4	End of Program
